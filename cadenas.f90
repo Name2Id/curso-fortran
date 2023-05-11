@@ -1,6 +1,6 @@
 program cadenas
 implicit none
-character :: a 
+character * 10 :: a 
 a = 'hola mundo'
 print * , a
 end program
